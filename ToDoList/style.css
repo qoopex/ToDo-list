@@ -1,0 +1,210 @@
+body {
+  margin: 0 auto;
+}
+
+.bodyLT {
+  background-color: white;
+}
+
+.bodyDT {
+  background-color: rgb(52, 52, 129);
+}
+
+#headerSection {
+  width: 100%;
+  height: 35%;
+  display: flex;
+}
+
+.headerSectionLT {
+  background-color: rgb(211, 211, 211);
+}
+
+.headerSectionDT {
+  background-color: rgb(247, 132, 0);
+}
+
+#btnSettings {
+  border-radius: 5px;
+  font-size: xx-large;
+  font-weight: bold;
+  width: 10%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.btnSettingsLT:hover {
+  background-color: rgb(195, 195, 195);
+}
+.btnSettingsLT:active {
+  background-color: rgba(211, 211, 211, 0.753);
+}
+
+.btnSettingsDT:hover {
+  background-color: rgb(224, 120, 0);
+}
+.btnSettingsDT:active {
+  background-color: rgba(224, 119, 0, 0.603);
+}
+
+#textMain {
+  margin-left: 39%;
+  margin-right: 39%;
+  font-size: xx-large;
+  font-weight: bold;
+  white-space: nowrap;
+  cursor: default;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#btnClear {
+  border-radius: 5px;
+  font-size: xx-large;
+  font-weight: bold;
+  white-space: nowrap;
+  width: 10%;
+  height: 10%;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.btnClearLT:hover {
+  background-color: rgb(195, 195, 195);
+}
+.btnClearLT:active {
+  background-color: rgba(211, 211, 211, 0.753);
+}
+
+.btnClearDT:hover {
+  background-color: rgb(224, 120, 0);
+}
+.btnClearDT:active {
+  background-color: rgba(224, 119, 0, 0.603);
+}
+
+#mainSection {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: x-large;
+}
+
+#btnAdd {
+  border-radius: 5px;
+  font-weight: bolder;
+  width: 50%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  margin-bottom: 5px;
+}
+
+.btnAddLT {
+  background-color: rgb(218, 218, 218);
+}
+.btnAddLT:hover {
+  background-color: lightgray;
+}
+.btnAddLT:active {
+  background-color: rgba(211, 211, 211, 0.753);
+}
+
+.btnAddDT {
+  background-color: rgb(236, 126, 0);
+}
+.btnAddDT:hover {
+  background-color: rgb(224, 120, 0);
+}
+.btnAddDT:active {
+  background-color: rgba(224, 119, 0, 0.603);
+}
+
+.form-check-input {
+  cursor: pointer;
+}
+
+.FCIlt {
+  background-color: lightgray;
+}
+
+.FCIdt {
+  background-color: rgb(247, 132, 0);
+}
+
+.form-check {
+  width: 50%;
+}
+
+.todoInput {
+  width: 95%;
+}
+
+#settings {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 100px;
+  left: 0px;
+  background-color: lightgray;
+  opacity: 0;
+}
+
+#settingsLT {
+  height: 50%;
+  width: 100%;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+#settingsLT:active {
+  background-color: rgba(245, 245, 220, 0.541);
+}
+
+#settingsDT {
+  height: 50%;
+  width: 100%;
+  background-color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: aquamarine;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+#settingsDT:active {
+  background-color: rgba(139, 0, 139, 0.562);
+}
+
+.invalid {
+  border: solid red 5px;
+}
+
+.valid {
+  border: solid green 5px;
+}/*# sourceMappingURL=style.css.map */
